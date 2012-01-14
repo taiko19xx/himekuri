@@ -12,6 +12,7 @@
 
 @synthesize dataLabel = _dataLabel;
 @synthesize dataObject = _dataObject;
+@synthesize objectIndex = _objectIndex;
 
 - (void)didReceiveMemoryWarning
 {
@@ -37,7 +38,12 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    self.dataLabel.text = [self.dataObject description];
+    
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setLocale:[NSLocale currentLocale]];
+    
+    [dateFormatter setDateFormat:@"d"];
+    self.dataLabel.text = [dateFormatter stringFromDate:self.dataObject];
 }
 
 - (void)viewDidAppear:(BOOL)animated
