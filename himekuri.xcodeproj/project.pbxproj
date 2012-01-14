@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C80B734014C14E930046776C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C80B733F14C14E930046776C /* UIKit.framework */; };
+		C80B734214C14E930046776C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C80B734114C14E930046776C /* Foundation.framework */; };
+		C80B734414C14E930046776C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C80B734314C14E930046776C /* CoreGraphics.framework */; };
+		C80B734A14C14E930046776C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C80B734814C14E930046776C /* InfoPlist.strings */; };
+		C80B734C14C14E930046776C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C80B734B14C14E930046776C /* main.m */; };
+		C80B735014C14E930046776C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C80B734F14C14E930046776C /* AppDelegate.m */; };
+		C80B735314C14E930046776C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C80B735214C14E930046776C /* RootViewController.m */; };
+		C80B735614C14E930046776C /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C80B735514C14E930046776C /* DataViewController.m */; };
+		C80B735914C14E930046776C /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = C80B735814C14E930046776C /* ModelController.m */; };
+		C80B735C14C14E930046776C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80B735A14C14E930046776C /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C80B733B14C14E930046776C /* himekuri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = himekuri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80B733F14C14E930046776C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C80B734114C14E930046776C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C80B734314C14E930046776C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C80B734714C14E930046776C /* himekuri-Info.plist */ = {isa = PBXFileReference; path = "himekuri-Info.plist"; sourceTree = "<group>"; };
+		C80B734914C14E930046776C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C80B734B14C14E930046776C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C80B734D14C14E930046776C /* himekuri-Prefix.pch */ = {isa = PBXFileReference; path = "himekuri-Prefix.pch"; sourceTree = "<group>"; };
+		C80B734E14C14E930046776C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C80B734F14C14E930046776C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C80B735114C14E930046776C /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		C80B735214C14E930046776C /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C80B735414C14E930046776C /* DataViewController.h */ = {isa = PBXFileReference; path = DataViewController.h; sourceTree = "<group>"; };
+		C80B735514C14E930046776C /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		C80B735714C14E930046776C /* ModelController.h */ = {isa = PBXFileReference; path = ModelController.h; sourceTree = "<group>"; };
+		C80B735814C14E930046776C /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		C80B735B14C14E930046776C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C80B733814C14E930046776C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80B734014C14E930046776C /* UIKit.framework in Frameworks */,
+				C80B734214C14E930046776C /* Foundation.framework in Frameworks */,
+				C80B734414C14E930046776C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C80B733014C14E920046776C = {
+			isa = PBXGroup;
+			children = (
+				C80B734514C14E930046776C /* himekuri */,
+				C80B733E14C14E930046776C /* Frameworks */,
+				C80B733C14C14E930046776C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C80B733C14C14E930046776C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C80B733B14C14E930046776C /* himekuri.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C80B733E14C14E930046776C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C80B733F14C14E930046776C /* UIKit.framework */,
+				C80B734114C14E930046776C /* Foundation.framework */,
+				C80B734314C14E930046776C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C80B734514C14E930046776C /* himekuri */ = {
+			isa = PBXGroup;
+			children = (
+				C80B734E14C14E930046776C /* AppDelegate.h */,
+				C80B734F14C14E930046776C /* AppDelegate.m */,
+				C80B735114C14E930046776C /* RootViewController.h */,
+				C80B735214C14E930046776C /* RootViewController.m */,
+				C80B735414C14E930046776C /* DataViewController.h */,
+				C80B735514C14E930046776C /* DataViewController.m */,
+				C80B735714C14E930046776C /* ModelController.h */,
+				C80B735814C14E930046776C /* ModelController.m */,
+				C80B735A14C14E930046776C /* MainStoryboard.storyboard */,
+				C80B734614C14E930046776C /* Supporting Files */,
+			);
+			path = himekuri;
+			sourceTree = "<group>";
+		};
+		C80B734614C14E930046776C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C80B734714C14E930046776C /* himekuri-Info.plist */,
+				C80B734814C14E930046776C /* InfoPlist.strings */,
+				C80B734B14C14E930046776C /* main.m */,
+				C80B734D14C14E930046776C /* himekuri-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C80B733A14C14E930046776C /* himekuri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C80B735F14C14E930046776C /* Build configuration list for PBXNativeTarget "himekuri" */;
+			buildPhases = (
+				C80B733714C14E930046776C /* Sources */,
+				C80B733814C14E930046776C /* Frameworks */,
+				C80B733914C14E930046776C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = himekuri;
+			productName = himekuri;
+			productReference = C80B733B14C14E930046776C /* himekuri.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C80B733214C14E920046776C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C80B733514C14E930046776C /* Build configuration list for PBXProject "himekuri" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C80B733014C14E920046776C;
+			productRefGroup = C80B733C14C14E930046776C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C80B733A14C14E930046776C /* himekuri */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C80B733914C14E930046776C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80B734A14C14E930046776C /* InfoPlist.strings in Resources */,
+				C80B735C14C14E930046776C /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C80B733714C14E930046776C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80B734C14C14E930046776C /* main.m in Sources */,
+				C80B735014C14E930046776C /* AppDelegate.m in Sources */,
+				C80B735314C14E930046776C /* RootViewController.m in Sources */,
+				C80B735614C14E930046776C /* DataViewController.m in Sources */,
+				C80B735914C14E930046776C /* ModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C80B734814C14E930046776C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C80B734914C14E930046776C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C80B735A14C14E930046776C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C80B735B14C14E930046776C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C80B735D14C14E930046776C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C80B735E14C14E930046776C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C80B736014C14E930046776C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "himekuri/himekuri-Prefix.pch";
+				INFOPLIST_FILE = "himekuri/himekuri-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C80B736114C14E930046776C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "himekuri/himekuri-Prefix.pch";
+				INFOPLIST_FILE = "himekuri/himekuri-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C80B733514C14E930046776C /* Build configuration list for PBXProject "himekuri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80B735D14C14E930046776C /* Debug */,
+				C80B735E14C14E930046776C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C80B735F14C14E930046776C /* Build configuration list for PBXNativeTarget "himekuri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80B736014C14E930046776C /* Debug */,
+				C80B736114C14E930046776C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C80B733214C14E920046776C /* Project object */;
+}
